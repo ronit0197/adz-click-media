@@ -1,8 +1,11 @@
 import React from 'react'
+import Hedaer from '../Components/Hedaer'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Hedaer title="About Us" description="Lorem ipsum dolor sit amet consectetur adipisicing elit." />
+    </>
   )
 }
 

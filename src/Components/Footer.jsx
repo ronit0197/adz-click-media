@@ -44,7 +44,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className='col-lg-3 col-md-12 col-12'>
-                                <iframe className='w-100' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49567.60613583696!2d88.31639360458638!3d22.574077269492697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40941f9444f3bb69%3A0xbb7eb9b5f5f2b97c!2sAdz%20Click%20Media%20%7C%7C%20Google%20Certified%20Agency%20%7C%7C%20SEO%20agency%20%7C%7C%20Digital%20Marketing%20Agency%20in%20Kolkata!5e0!3m2!1sen!2sin!4v1722511927556!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe className='w-100' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49567.60613583696!2d88.31639360458638!3d22.574077269492697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40941f9444f3bb69%3A0xbb7eb9b5f5f2b97c!2sAdz%20Click%20Media%20%7C%7C%20Google%20Certified%20Agency%20%7C%7C%20SEO%20agency%20%7C%7C%20Digital%20Marketing%20Agency%20in%20Kolkata!5e0!3m2!1sen!2sin!4v1722511927556!5m2!1sen!2sin" title='footer-map' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
