@@ -36,6 +36,31 @@
             box-shadow: 0 0 10px rgb(195, 195, 195);
         }
     }
+
+    .header-image {
+        animation: float 3s linear infinite;
+
+    }
+
+    @keyframes float {
+        0% {
+
+            transform: translateY(0px);
+
+        }
+
+        50% {
+
+            transform: translateY(5px);
+
+        }
+
+        100% {
+
+            transform: translateY(0px);
+        }
+
+    }
 }
 
 .hero-section {
@@ -74,6 +99,30 @@
             padding: 2px;
             border-radius: 2px;
         }
+    }
+
+    .review-icon {
+        width: 50px;
+        height: 50px;
+        background-image: linear-gradient(45deg, var(--shade-1), var(--shade-2));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+}
+
+.service-card {
+    background: white;
+
+    img {
+        width: 170px;
+    }
+
+    .divider {
+        background: var(--primary);
+        padding: 2px;
+        border-radius: 2px;
     }
 }
 
@@ -167,6 +216,70 @@
     background-image: linear-gradient(45deg, var(--primary), var(--secondary));
 }
 
+.contact-page {
+    margin-top: 2rem;
+
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover,
+        &:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(0, 91, 187, 0.2);
+        }
+    }
+
+    .btn-primary {
+        background-color: var(--primary);
+        border-color: var(--secondary);
+        border-radius: 0.5rem;
+        padding: 0.5rem 1.5rem;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+            background-color: var(--shade-2);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+    }
+
+    .contact-details {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            position: relative;
+            transition: color 0.3s ease, transform 0.3s ease;
+
+            &::before {
+                content: '•';
+                color: var(--primary);
+                position: absolute;
+                left: -1.5rem;
+                transition: color 0.3s ease;
+            }
+
+            &:hover {
+                color: var(--shade-2);
+                transform: translateX(5px);
+
+                &::before {
+                    color: var(--secondary);
+                }
+            }
+        }
+    }
+}
+
+
 .footer {
     p {
         font-size: 11px;
@@ -187,7 +300,7 @@
     }
 }
 
-.after-footer{
+.after-footer {
     font-size: 12px;
 }
 

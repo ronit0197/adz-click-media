@@ -5,6 +5,7 @@ import HeroGrid from '../Components/HeroGrid'
 import HeroGif from '../Assets/Backgrounds/hero-gif.gif'
 import { Link } from 'react-router-dom'
 import Subscription from '../Components/Subscription'
+import Testimonial from '../Components/Testimonial'
 
 const Home = () => {
   return (
@@ -33,8 +34,8 @@ const Home = () => {
             <h4 className='fw-bold text-dark'>Boost Up</h4>
             <h1 className='fw-bold h-font'>Your Business with Us</h1>
             <p className='gif-text mt-3'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda architecto blanditiis, 
-              incidunt eos soluta enim reprehenderit natus commodi ea accusantium perspiciatis esse 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda architecto blanditiis,
+              incidunt eos soluta enim reprehenderit natus commodi ea accusantium perspiciatis esse
               repellendus inventore! Voluptatum dolorum rerum fugiat explicabo aspernatur?
             </p>
             <Link to="/services" className='nav-link mt-lg-5 mt-2'>Our services...</Link>
@@ -45,6 +46,7 @@ const Home = () => {
         </div>
       </div>
       <Subscription />
+      <Testimonial />
     </>
   )
 }
